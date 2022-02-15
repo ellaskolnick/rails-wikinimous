@@ -1,0 +1,20 @@
+@import "bootstrap/scss/bootstrap";
+a {
+  text-decoration: none;
+}
+
+.articles{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.titles {
+  border-bottom: solid rgb(184, 184, 184) 1px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+}

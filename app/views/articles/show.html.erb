@@ -1,0 +1,14 @@
+<div class="articles">
+  <h1 class="titles">
+    <%= @article.title %>
+     <%= link_to edit_article_path(@article.id) do %>
+        <i class="fa-solid fa-pencil"></i>
+      <% end %>
+      <%= link_to article_path(@article), method: :delete, data: { confirm: "Delete #{@article.title}?"} do %>
+        <i class="fa-solid fa-trash-can"></i>
+      <% end %>
+  </h1>
+  <br>
+  <br>
+  <p> <%= @article.content %> </p>
+</div>
